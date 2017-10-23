@@ -13,12 +13,12 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 ### Vulnerability #1: SQL injection ###
 
-<img src='https://i.imgur.com/hs5tjfE.gif' title='SQL Injection' width='' alt='SQL Injection' />
+<img src='https://i.imgur.com/BNC5f6O.gif' title='SQL Injection' width='' alt='SQL Injection' />
 In the Salesperson info page with the format "?id=XX" in the URL, when tested by adding a ' at the end of the URL, the red and green pages simply redirected, while the blue page showed an error message stating that the database query had failed. This gave away that the blue site had SQL Injection vulnerability, as shown in the GIF walkthrough.
 
 ### Vulnerability #2: Session Hijacking/Fixation ###
 
-<img src='https://i.imgur.com/x7Ju3qE.gif' title='Session Hijacking' width='' alt='Session Hijacking' />
+<img src='https://i.imgur.com/W6XzJ2s.gif' title='Session Hijacking' width='' alt='Session Hijacking' />
 Using the target's session (that is logged in), the attacker can change his or her own session to match the target's so as to get the same login privileges.
 
 ## Green
@@ -35,7 +35,7 @@ This site's feedback form has a stored XSS alert vulnerability. The <script> tag
 ## Red
 ### Vulnerability #1: Insecure Direct Object Reference ###
 
-<img src='https://i.imgur.com/VDLA67z.gif' title='Insecure Direct Object Reference' width='' alt='Insecure Direct Object Reference' />
+<img src='https://i.imgur.com/5lUMpUB.gif' title='Insecure Direct Object Reference' width='' alt='Insecure Direct Object Reference' />
 The Salesperson database can be accessed by modifying the "?id=" tag in the URL; this can be used to access salespeople with ids 10 and 11, while the publicly displayed data ends at id 9.
 
 ### Vulnerability #2: Cross-Site Request Forgery ###
