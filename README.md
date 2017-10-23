@@ -40,7 +40,7 @@ The Salesperson database can be accessed by modifying the "?id=" tag in the URL;
 
 ### Vulnerability #2: Cross-Site Request Forgery ###
 
-<img src='https://i.imgur.com/rsykErD.gif' title='Insecure Direct Object Reference' width='' alt='Insecure Direct Object Reference' />
+<img src='https://i.imgur.com/9nqgTSE.gif' title='Insecure Direct Object Reference' width='' alt='Insecure Direct Object Reference' />
 The site accepts a post request from a different source that has a hidden form in it, and makes alterations to the user database.
 
 ## Assets
